@@ -56,7 +56,16 @@ Player can also move the block down with keyboard input. They can either move it
 Player can rotate the moving block 90° left or right. Each block rotates around a specified point of the block (see [[Tetris#Block Types|Block types]])
 ##### Keyboard inputs
 - Rotate left: Q
-- Rotate right: E  
+- Rotate right: E
+
+#### Kickback
+Kickback is a mechanic the game uses for when a block rotates into a square that is outside of the board or occupied by another block. When this occasion happens the block should be **kicked back** to a square, where there is no collision anymore. The direction of the movement should be with these priorities:
+1. Move the block the smallest number of one square moves possible 
+2. Move block to one square left
+3. Move block to one square right
+4. Move the block one square up
+
+![[rotation_kickback.png]]
 ### Block Types
 These are the block types that inside the game. Every block is consists of 4 connected squares. The following symbol shows around which point does the block rotate:
 ![[point_of_rotation.png]]
