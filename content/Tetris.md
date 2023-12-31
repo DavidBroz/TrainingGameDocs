@@ -9,7 +9,8 @@ These are the terms used in the documentation that need some clarification.
 Blocks are the shapes that move down the board and that have stopped moving. (example "T block")
 
 ### Square 
-Square is one possible position on the board. A block can occupy multiple squares it can move between the squares and cannot exist outside of them. The board is made out of squares. 
+Square is one position on the board. A block can occupy multiple squares it can move between the squares and cannot exist outside of them. The board is made out of squares. 
+
 ![[WhatIsBlockAndSquare.png]]
 ## The board
 The board that the blocks falls down on is 10 x 20 squares. Oriented vertically - long side up. 
@@ -28,7 +29,7 @@ When a block reaches the bottom of the board and **tries to move** outside of th
 
 #### Block spawn
 When there is no moving block to be moved when it is time to move it, a new moving block will be spawn at the **top middle** of the board. If the block cannot fit perfectly into the middle position, it will be spawn on the right side of the middle position.![[block spawn.png]]
-Which block is to be spawn is chosen randomly from all available options. See Block types bellow. 
+Which block is to be spawn is chosen randomly from all available options (see [[Tetris#Block Types|Block types]]). 
 
 ### Player controlled movement
 Player has control over 3 aspects for the block. Movement side to side, movement down, and rotation of the block.
@@ -45,9 +46,20 @@ If either is true, the movement input is ignored. If neither are true, the block
 ![[ignored_input.png]]
 ![[processed_movement.png]]
 #### Movement down
-
+Player can also move the block down with keyboard input. They can either move it immediately one square down or "slam it" which means to move it down until it stops (there is no more squares to move it to).
 ##### Keyboard inputs
 - Move down: S or Down Arrow
-- Slam block to the end: Space  
-
+- Slam block: Space  
+![[player_movement_down.png]]
+![[player_slamming_block_example.png]]
 #### Rotation
+Player can rotate the moving block 90° left or right. Each block rotates around a specified point of the block (see [[Tetris#Block Types|Block types]])
+##### Keyboard inputs
+- Rotate left: Q
+- Rotate right: E  
+### Block Types
+These are the block types that inside the game. Every block is consists of 4 connected squares. The following symbol shows around which point does the block rotate:
+![[point_of_rotation.png]]
+#### I block
+![[I_block_rotation.png]]
+#### L block
