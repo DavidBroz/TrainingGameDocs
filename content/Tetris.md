@@ -79,5 +79,7 @@ When the player manages to complete a full row of the block on the board, the ro
 
 ![[row_completion.png]]
 
-## Losing the game
-Player loses the game when the 
+## Game ending
+Player loses and the game is over when a block stops moving and part of it is not on the board.
+ 
+![[game_over_examples.png]]
