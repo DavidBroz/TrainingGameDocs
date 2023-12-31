@@ -69,4 +69,6 @@ These are the block types that inside the game. Every block is consists of 4 con
 #### T block
 ![[T_block_rotations.png]]
 #### Z block
-To be done...
+![[Z_block_rotations.png]]
+#### S block
+![[S_block_rotation.png]]
