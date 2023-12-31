@@ -72,3 +72,12 @@ These are the block types that inside the game. Every block is consists of 4 con
 ![[Z_block_rotations.png]]
 #### S block
 ![[S_block_rotation.png]]
+
+### Completing a row
+
+When the player manages to complete a full row of the block on the board, the row disappears and all blocks above the row move one spaces down. If multiple rows are completed at the same time, all the rows disappear at the same time and the blocks one square down for each completed row bellow them.
+
+![[row_completion.png]]
+
+## Losing the game
+Player loses the game when the 
