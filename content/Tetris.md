@@ -63,3 +63,10 @@ These are the block types that inside the game. Every block is consists of 4 con
 #### I block
 ![[I_block_rotation.png]]
 #### L block
+![[L_block_rotations.png]]
+#### Reverse L block
+![[reverse_L_block_rotations.png]]
+#### T block
+![[T_block_rotations.png]]
+#### Z block
+To be done...
