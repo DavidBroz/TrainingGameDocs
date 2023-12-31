@@ -41,6 +41,13 @@ If either is true, the movement input is ignored. If neither are true, the block
 ##### Keyboard inputs
 - Move left: A or Left Arrow
 - Move right: D or Right Arrow
+
+![[ignored_input.png]]
+![[processed_movement.png]]
 #### Movement down
+
+##### Keyboard inputs
+- Move down: S or Down Arrow
+- Slam block to the end: Space  
 
 #### Rotation
