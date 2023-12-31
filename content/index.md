@@ -2,9 +2,9 @@
 title: Homepage
 ---
 
-This is a documentation for are training game. This is another version. 
+This is a documentation for are training game. 
 
-I've created [[That note|this note]] to demonstrate how I can link notes here with Obsidian and to test, if it also works on the website.
+The documentation to the Tetris game we are making is [[Tetris|here]].
 
 A game worked on by Pinguanec, wuchta, Zettexe and Omnivert
 
