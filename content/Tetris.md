@@ -1,7 +1,7 @@
 ---
 title: Tetris
 ---
-We are making a basic a Tetris game. Blocks fall down, if they complete the row, they disappear. 
+We are making a basic Tetris game. Blocks fall down, if they complete the row, they disappear. 
 
 ## Terminology
 These are the terms used in the documentation that need some clarification.
