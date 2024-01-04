@@ -13,7 +13,7 @@ Square is one position on the board. A block can occupy multiple squares it can 
 
 ![[WhatIsBlockAndSquare.png]]
 ## The board
-The board that the blocks falls down on is 10 x 20 squares. Oriented vertically - long side up. 
+The board that the blocks falls down on is 10 x 20 squares. Oriented vertically. 
 ![[tetris_board.png]]
 
 ## Block movement
