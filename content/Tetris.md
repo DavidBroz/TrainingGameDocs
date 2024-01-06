@@ -56,7 +56,7 @@ Player can also move the block down with keyboard input. They can either move it
 Player can rotate the moving block 90° left or right. Each block rotates around a specified point of the block (see [[Tetris#Block Types|Block types]])
 ##### Keyboard inputs
 - Rotate left: Q
-- Rotate right: E
+- Rotate right: E, Up Arrow
 
 #### Kickback
 Kickback is a mechanic the game uses for when a block rotates into a square that is outside of the board or occupied by another block. When this occasion happens the block should be **kicked back** to a square, where there is no collision anymore. The direction of the movement should be with these priorities:
