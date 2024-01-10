@@ -56,7 +56,7 @@ Kickback is a mechanic the game uses for when a block rotates into a square that
 4. Move the block one square up
 
 ![[rotation_kickback.png]]
-### Block Types
+## Block Types
 These are the block types that inside the game. Every block is consists of 4 connected squares. The following symbol shows around which point does the block rotate:
 ![[point_of_rotation.png]]
 #### I block
@@ -72,7 +72,7 @@ These are the block types that inside the game. Every block is consists of 4 con
 #### S block
 ![[S_block_rotation.png]]
 
-### Completing a row
+## Completing a row
 
 When the player manages to complete a full row of the block on the board, the row disappears and all blocks above the row move one spaces down. If multiple rows are completed at the same time, all the rows disappear at the same time and the blocks one square down for each completed row bellow them.
 
