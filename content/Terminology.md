@@ -8,5 +8,5 @@ Square is one position on the board. A block can occupy multiple squares it can 
 
 ![[WhatIsBlockAndSquare.png]]
 ## The board
-The board that the blocks falls down on is 10 x 20 squares. Oriented vertically. 
+The board is the playing space what the blocks are placed upon. It consists of squares.
 ![[tetris_board.png]]
