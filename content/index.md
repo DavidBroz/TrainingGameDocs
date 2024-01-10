@@ -29,5 +29,6 @@ Puzzle, tile-matching
 
 Our version of the game is target for **casual audience**. We are more concerned about it being fun and easy to pick up rather then to fine balance the difficulty to match the player's skill.
 
+## The rest
 
-The rest of the documentation to the Tetris game we are making is [[Tetris|here]].
+The rest of the documentation to the Tetris game we are making is in the [[Tetris|Tetris section]]. 
